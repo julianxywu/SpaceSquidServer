@@ -2,6 +2,7 @@ import mongoose, { Schema } from 'mongoose';
 
 // create a PostSchema with a title field
 const PlanetSchema = new Schema({
+  planetName: String,
   distanceFromSun: Number,
   diameter: Number,
   mass: Number,
