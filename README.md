@@ -1,4 +1,4 @@
-# Julian Wu
+# Kai Frey, Alex Hamel, Julian Wu
 ## SpaceSquid Server
 ## August 2020
 
