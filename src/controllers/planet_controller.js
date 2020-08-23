@@ -20,6 +20,7 @@ import Planet from '../models/planet_model';
 export const getPlanets = (req, res) => {
   Planet.find({})
     .then((result) => {
+      console.log(result);
       res.json(result);
     });
 };
