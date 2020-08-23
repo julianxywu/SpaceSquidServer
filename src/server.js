@@ -32,7 +32,7 @@ app.use(bodyParser.json());
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
 // this should go AFTER body parser
-app.use('/api', apiRouter);
+app.use('', apiRouter);
 
 // additional init stuff should go before hitting the routing
 // DB Setup
