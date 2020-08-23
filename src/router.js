@@ -12,7 +12,8 @@ router.get('/', (req, res) => {
 
 // your routes will go here
 router.route('/planets')
-  .get(Planets.getPlanets);
+  .get(Planets.getPlanets)
+  .post(Planets.createPlanet);
 
 // router.route('/posts/:id')
 //   .get(Posts.getPost)
