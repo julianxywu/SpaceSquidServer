@@ -15,7 +15,7 @@ router.route('/planets')
   .get(Planets.getPlanets)
   .post(Planets.createPlanet);
 
-router.route('/planet/:id')
+router.route('/planets/:id')
   .get(Planets.getPlanet);
 // router.route('/posts/:id')
 //   .get(Posts.getPost)
