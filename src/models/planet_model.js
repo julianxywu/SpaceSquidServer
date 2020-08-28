@@ -17,6 +17,7 @@ const PlanetSchema = new Schema({
   significantSatellites: String,
   atmosphereComposition: String,
   interiorStructure: String,
+  color: String,
   summary: [String],
 }, {
   toObject: { virtuals: true },
